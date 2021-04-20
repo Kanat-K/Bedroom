@@ -1,0 +1,151 @@
+body{
+	font-family: arial, sans-serif;
+	color: #000;
+	font-size: 14px;
+	line-height: 1.85;
+	margin: 0;
+	background: #e1e7ed; 
+	letter-spacing: 0.025em;
+}
+.container{
+	width: 750px;
+	margin:0 auto;
+}
+.card{
+	margin: 60px 0 39px 0;
+	background: #fff;
+}
+.card-photo{
+	display: block;
+	position: relative;
+}
+.card-photo img{
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+.mark{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 80px;
+	background: url(../img/star.png) 14px 14px no-repeat, url(../img/triangle.png) 0 0 no-repeat;
+}
+.card-info{
+	margin: 0;
+	position: relative;
+	padding: 14px 37px 31px 30px;
+}
+.card-info h4{
+	margin: 0 80px 10px 0;
+	padding: 0;
+	font-size: 18px;
+	font-weight: normal;
+}
+.card-info p{
+	margin: 0;
+	padding: 0 0 32px 0;
+	color: #868d9b;
+	font-weight: normal;
+}
+.price{
+	position: absolute;
+	top: 15px;
+	right: 32px;
+	font-size: 18px;
+	color: #65bd8c;
+}
+.card-bot{
+	position: relative;
+}
+.card-bot span{
+	font-size: 14px;
+	color: #868d9b;
+}
+.avatars-block a{
+	margin: 0;
+	padding: 0 6px 0 0;
+}
+.num{
+	position: absolute;
+	border-radius: 20px;
+	border: 1px solid #868d9b;
+	padding: 3px 13px;
+	top: 0px;
+	left: 125px;
+}
+.txt{
+	position: absolute;
+	top: 3px;
+	left: 195px;
+}
+.see-more{
+	position: absolute;
+    top: -10px;
+    right: -7px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    background: #ff638f;
+    border-radius: 3px;
+    padding: 13px 30px;
+    text-transform: uppercase;
+}
+.buy{
+	width: 750px;
+	margin-bottom: 73px;
+}
+.modern{
+	position: relative;
+	width: 360px;
+	height: 488px;
+	background: #fff;
+	display: inline-block;
+	text-align: center;
+}
+.sof1{
+	float: left;
+}
+.sofa2{
+	float: right;
+}
+.buy h4{
+	margin: 0;
+	padding: 14px 0 0 0;	
+	font-size: 18px;
+	color: #33363b;
+	text-align: center;
+	font-weight: normal;
+}
+.buy p{
+	color:#868d9b;
+	text-align: center;
+	padding: 10px 30px 37px 30px ;
+	margin: 0; 
+	font-size: 14px;
+	font-weight: normal;
+}
+.modern a{
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 3px;
+	padding: 17px 115px;
+	background: #ff638f;
+	text-decoration: none;
+}
+.modern span{
+	display: block;
+	font-size: 18px;
+	color:#fff;
+	background: #ff638f;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	margin: 0;
+	padding: 25px 0;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
